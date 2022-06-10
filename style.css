@@ -1,1 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+main {
+  background-color: #e6cacb9c;
+  width: 1000px;
+  height: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  transition: all 0.5s ease;
+  color: rgb(47, 49, 156);
+}
+header {
+  margin: 0px 80px 0 80px;
+  display: flex;
+}
+.photo img {
+  margin-top: 30px;
+  width: 400px;
+  height: 400px;
+}
+.discription {
+  margin-top: 15px;
+  margin-left: 70px;
+  text-align: right;
+  width: 500px;
+  text-transform: uppercase;
+}
+.name {
+  font-size: 74px;
+  font-weight: 1000;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+.direction {
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 3 8px;
+  text-align: justify;
+  letter-spacing: 0.215em;
+}
+.block {
+  margin-left: 80px;
+  width: 226px;
+  height: 250px;
+  float: left;
 
+  padding-top: 30px;
+}
+.title {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  font-size: 18px;
+}
+.content {
+  margin-top: 20px;
+}
+.content p {
+  padding-bottom: 20px;
+}
+.icons {
+  display: flex;
+}
+.icons img {
+  margin-top: -5px;
+  width: 30px;
+  height: 30px;
+  padding-left: 10px;
+}
+.level {
+  position: absolute;
+  top: 520px;
+  left: 770px;
+  width: 100px;
+}
+.level img {
+  width: 100px;
+  padding-bottom: 22.5px;
+}
+.contenthobbies img {
+  width: 36px;
+  height: 36px;
+  padding: 30px;
+}
+footer img {
+    position: absolute;
+top: 1180px;
+left: 1080px;
+    width: 100px;
+    opacity: 50%;
+}
